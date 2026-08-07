@@ -48,7 +48,7 @@ function updateThemeIcon(theme) {
 }
 
 /* --------------------------------------------------------------------------
-   2. TYPING EFFECT FOR HERO TITLE
+   2. TYPING EFFECT FOR HERO TITLE (PUNCHY & MOBILE OPTIMIZED)
    -------------------------------------------------------------------------- */
 function initTypingEffect() {
   const target = document.getElementById('typingRole');
@@ -56,9 +56,9 @@ function initTypingEffect() {
 
   const roles = [
     "QA Automation Engineer",
-    "SDET (Software Development Engineer in Test)",
-    "Playwright & JavaScript Specialist",
-    "CI/CD Continuous Testing Architect"
+    "SDET Automation Engineer",
+    "Playwright (JS) Specialist",
+    "CI/CD Testing Architect"
   ];
   
   let roleIndex = 0;
