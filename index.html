@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ravindra Kumar Suthar | QA Automation Engineer & SDET Portfolio</title>
+  <meta name="description" content="Portfolio of Ravindra Kumar Suthar, QA Automation Engineer & SDET specialized in Playwright (JS), Selenium WebDriver, REST API Testing, and CI/CD Pipelines.">
+  <meta name="keywords" content="Ravindra Kumar Suthar, QA Automation Engineer, SDET, Playwright, Selenium, Test Automation, Software Testing, Pune, India">
+  <meta name="author" content="Ravindra Kumar Suthar">
+  
+  <!-- OpenGraph Metadata -->
+  <meta property="og:title" content="Ravindra Kumar Suthar | QA Automation Engineer & SDET">
+  <meta property="og:description" content="QA Automation Engineer specialized in Playwright with JavaScript, Selenium WebDriver, and CI/CD pipeline integration.">
+  <meta property="og:image" content="IMG_1152.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION HEADER
+       ========================================================================= -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="#hero" class="nav-brand" id="navBrand">
+        <div class="brand-avatar-wrapper">
+          <img src="IMG_1152.jpg" alt="Ravindra Kumar Suthar Headshot" class="brand-avatar-img">
+        </div>
+        <div class="brand-text">
+          Ravindra <span>Suthar</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link">About</a>
+        <a href="#architecture" class="nav-link">QA Architecture</a>
+        <a href="#dashboard" class="nav-link">Metrics & Bugs</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#credentials" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         2. HERO SECTION
+         ======================================================================= -->
+    <section class="hero" id="hero">
+      <div class="hero-background-grid"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-status-badge">
+            <span class="pulse-dot"></span> Available for QA Automation, Software Test Engineer & SDET Roles
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Ravindra Suthar</span>
+          </h1>
+
+          <div class="hero-role">
+            <i class="fas fa-code-branch"></i>
+            <span id="typingRole">QA Automation Engineer</span><span class="typing-cursor"></span>
+          </div>
+
+          <p class="hero-summary">
+            QA Automation Engineer with an <strong>MCA degree (8.19 CGPA)</strong> and hands-on experience designing scalable test frameworks. Specialized in <strong>Playwright (JS)</strong>, <strong>Selenium WebDriver</strong>, REST API testing with Postman, SQL database validation, and <strong>CI/CD pipeline integration via GitHub Actions</strong>. Dedicated to building quality into every stage of development.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary" id="heroContactBtn">
+              <i class="fas fa-paper-plane"></i> Contact Me
+            </a>
+            <a href="Ravindra_Kumar_Suthar_QA_Automation_Resume.pdf" download="Ravindra_Kumar_Suthar_QA_Automation_Resume.pdf" class="btn btn-secondary" id="heroResumeBtn">
+              <i class="fas fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="btn btn-outline" id="heroGithubBtn">
+              <i class="fab fa-github"></i> View GitHub
+            </a>
+            <a href="https://leetcode.com/u/Ravindra882/" target="_blank" rel="noopener" class="btn btn-leetcode" id="heroLeetcodeBtn">
+              <i class="fas fa-code"></i> LeetCode Profile
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span style="font-size: 0.85rem; color: var(--text-subtle); font-weight: 600;">CONNECT:</span>
+            <a href="https://www.linkedin.com/in/ravindra-suthar/" target="_blank" rel="noopener" class="social-pill">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:solankiravindra882@gmail.com" class="social-pill">
+              <i class="fas fa-envelope"></i> solankiravindra882@gmail.com
+            </a>
+            <span class="social-pill">
+              <i class="fas fa-location-dot"></i> Pune, MH, India
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Circular Profile Photo Container -->
+        <div class="hero-image-wrapper reveal-on-scroll delay-200" id="about">
+          <div class="hero-image-card-circle">
+            <img src="IMG_1152.jpg" alt="Ravindra Kumar Suthar - QA Automation Engineer Headshot">
+          </div>
+          
+          <div class="hero-badge-float badge-top-right">
+            <div class="float-icon">
+              <i class="fas fa-vial-circle-check"></i>
+            </div>
+            <div class="float-text">
+              <span class="label">Framework Focus</span>
+              <span class="val">Playwright & JS</span>
+            </div>
+          </div>
+
+          <div class="hero-badge-float badge-bottom-left">
+            <div class="float-icon">
+              <i class="fas fa-shield-halved"></i>
+            </div>
+            <div class="float-text">
+              <span class="label">Test Efficiency</span>
+              <span class="val">+35% POM Speedup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. STATS BANNER
+         ======================================================================= -->
+    <section class="stats-banner">
+      <div class="container stats-grid reveal-on-scroll">
+        <div class="stat-item">
+          <div class="stat-number" data-target="30" data-suffix="%">—</div>
+          <div class="stat-label">Release Defect Reduction</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="35" data-suffix="%">—</div>
+          <div class="stat-label">POM Efficiency Boost</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="8.19" data-decimal="true" data-suffix=" CGPA">—</div>
+          <div class="stat-label">MCA Academic Excellence</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="100" data-suffix="%">—</div>
+          <div class="stat-label">UI Workflow Consistency</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. QA AUTOMATION TESTING ARCHITECTURE & CI/CD PIPELINE FLOW
+         ======================================================================= -->
+    <section class="qa-architecture-section" id="architecture">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-diagram-project"></i> SDET Engineering Workflow
+          </div>
+          <h2 class="section-title">Automated Testing <span>Architecture & CI/CD</span> Flow</h2>
+          <p class="section-subtitle">
+            How I architect continuous testing pipelines to prevent production defects before every release.
+          </p>
+        </div>
+
+        <div class="pipeline-diagram reveal-on-scroll delay-200">
+          <div class="pipeline-step">
+            <div class="step-num">01</div>
+            <div class="step-icon"><i class="fas fa-code-commit"></i></div>
+            <h4 class="step-title">1. Code Commit</h4>
+            <p class="step-desc">Developer pushes feature code to Git repository branch.</p>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">02</div>
+            <div class="step-icon"><i class="fab fa-github-action"></i></div>
+            <h4 class="step-title">2. CI Trigger</h4>
+            <p class="step-desc">GitHub Actions / Jenkins workflow triggers on Pull Request.</p>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">03</div>
+            <div class="step-icon"><i class="fas fa-robot"></i></div>
+            <h4 class="step-title">3. Playwright Suite</h4>
+            <p class="step-desc">Parallel headless E2E & API test execution across 4 workers.</p>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">04</div>
+            <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+            <h4 class="step-title">4. Reports & Logs</h4>
+            <p class="step-desc">HTML Test Reports, Playwright Traces, & Screenshots generated.</p>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">05</div>
+            <div class="step-icon"><i class="fas fa-tasks"></i></div>
+            <h4 class="step-title">5. JIRA Defect Sync</h4>
+            <p class="step-desc">Failed assertions automatically tracked and assigned in JIRA.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. INTERACTIVE QA METRICS & DEFECT TRACKER DASHBOARD
+         ======================================================================= -->
+    <section class="qa-dashboard-section" id="dashboard">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-chart-pie"></i> QA Strategy & Defect Management
+          </div>
+          <h2 class="section-title">Interactive <span>QA Test Metrics</span> & Defect Tracker</h2>
+          <p class="section-subtitle">
+            Explore test automation coverage metrics, cross-browser compatibility matrix, and JIRA defect lifecycle management.
+          </p>
+        </div>
+
+        <div class="dashboard-card reveal-on-scroll delay-200">
+          <!-- Dashboard Nav Tabs -->
+          <div class="dashboard-tabs">
+            <button class="dash-tab-btn active" data-tab="coverage">
+              <i class="fas fa-chart-column"></i> Automation Coverage
+            </button>
+            <button class="dash-tab-btn" data-tab="defects">
+              <i class="fas fa-bug"></i> JIRA Defect Tracker
+            </button>
+            <button class="dash-tab-btn" data-tab="matrix">
+              <i class="fas fa-globe"></i> Cross-Browser Matrix
+            </button>
+          </div>
+
+          <!-- Tab Content 1: Automation Coverage Bars -->
+          <div class="dash-tab-content active" id="tab-coverage">
+            <div class="coverage-grid">
+              <div class="coverage-item">
+                <div class="coverage-info">
+                  <span class="coverage-label">Web UI Automation (Playwright / Selenium)</span>
+                  <span class="coverage-val">95%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" style="width: 95%;"></div>
+                </div>
+              </div>
+
+              <div class="coverage-item">
+                <div class="coverage-info">
+                  <span class="coverage-label">REST API Validation (Postman / Playwright API)</span>
+                  <span class="coverage-val">90%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="coverage-item">
+                <div class="coverage-info">
+                  <span class="coverage-label">Regression Suite Automation</span>
+                  <span class="coverage-val">88%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" style="width: 88%;"></div>
+                </div>
+              </div>
+
+              <div class="coverage-item">
+                <div class="coverage-info">
+                  <span class="coverage-label">CI/CD Continuous Pipeline Runs (GitHub Actions & Jenkins)</span>
+                  <span class="coverage-val">100%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content 2: JIRA Defect Tracker -->
+          <div class="dash-tab-content" id="tab-defects" style="display: none;">
+            <div class="defects-container">
+              <div class="defect-item">
+                <div class="defect-badge severity-high">HIGH</div>
+                <div class="defect-details">
+                  <div class="defect-id">CRMS-104 • Authentication & Session Handling</div>
+                  <h4 class="defect-summary">Token Expiration Missing Auto-Refresh in Police Portal</h4>
+                  <div class="defect-meta">
+                    <span><i class="fas fa-tags"></i> Playwright E2E</span>
+                    <span><i class="fas fa-user-check"></i> Found in Sprint 12</span>
+                    <span class="status-closed"><i class="fas fa-check-double"></i> VERIFIED & CLOSED</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="defect-item">
+                <div class="defect-badge severity-medium">MEDIUM</div>
+                <div class="defect-details">
+                  <div class="defect-id">ART-209 • Shopping Cart & Checkout</div>
+                  <h4 class="defect-summary">Dynamic Shipping Tax Rate Rounding Mismatch on Safari WebKit</h4>
+                  <div class="defect-meta">
+                    <span><i class="fas fa-tags"></i> Cross-Browser</span>
+                    <span><i class="fas fa-user-check"></i> Found in Release 2.4</span>
+                    <span class="status-closed"><i class="fas fa-check-double"></i> VERIFIED & CLOSED</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="defect-item">
+                <div class="defect-badge severity-high">HIGH</div>
+                <div class="defect-details">
+                  <div class="defect-id">MED-302 • Role-Based Access Control (RBAC)</div>
+                  <h4 class="defect-summary">Pharmacist User Granted Edit Rights on Admin Audit Ledger</h4>
+                  <div class="defect-meta">
+                    <span><i class="fas fa-tags"></i> Security / RBAC</span>
+                    <span><i class="fas fa-user-check"></i> Found in Audit Run</span>
+                    <span class="status-closed"><i class="fas fa-check-double"></i> VERIFIED & CLOSED</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content 3: Cross-Browser Matrix -->
+          <div class="dash-tab-content" id="tab-matrix" style="display: none;">
+            <div class="matrix-table-wrapper">
+              <table class="matrix-table">
+                <thead>
+                  <tr>
+                    <th>Browser Engine</th>
+                    <th>Supported Viewports</th>
+                    <th>Headless Execution</th>
+                    <th>Parallel Workers</th>
+                    <th>Pass Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="fab fa-chrome"></i> Chromium (Chrome / Edge)</td>
+                    <td>1920x1080, 1366x768, Mobile View</td>
+                    <td><span class="badge-yes">Yes</span></td>
+                    <td>4 Workers</td>
+                    <td><strong class="pass-text">100% Passed</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fab fa-firefox-browser"></i> Firefox Gecko</td>
+                    <td>1920x1080 Desktop</td>
+                    <td><span class="badge-yes">Yes</span></td>
+                    <td>4 Workers</td>
+                    <td><strong class="pass-text">100% Passed</strong></td>
+                  </tr>
+                  <tr>
+                    <td><i class="fab fa-safari"></i> WebKit (Safari)</td>
+                    <td>iPhone 13, iPad Air, macOS Safari</td>
+                    <td><span class="badge-yes">Yes</span></td>
+                    <td>2 Workers</td>
+                    <td><strong class="pass-text">100% Passed</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. TECHNICAL SKILLS CATEGORIZATION
+         ======================================================================= -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-layer-group"></i> Technical Stack
+          </div>
+          <h2 class="section-title">Core <span>QA & Engineering</span> Competencies</h2>
+          <p class="section-subtitle">
+            Categorized technical capabilities, automation tools, languages, and testing methodologies.
+          </p>
+        </div>
+
+        <div class="skills-grid reveal-on-scroll delay-200">
+          <!-- Skill Card 1 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3 class="skill-card-title">Test Automation Frameworks</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fas fa-check-circle"></i> Playwright (JavaScript)</span>
+              <span class="skill-badge"><i class="fas fa-check-circle"></i> Selenium WebDriver</span>
+              <span class="skill-badge"><i class="fas fa-check-circle"></i> TestNG</span>
+              <span class="skill-badge"><i class="fas fa-check-circle"></i> Cucumber (BDD)</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="skill-card-title">Programming & Database</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="skill-badge"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-badge"><i class="fas fa-database"></i> SQL</span>
+              <span class="skill-badge"><i class="fas fa-server"></i> MySQL</span>
+              <span class="skill-badge"><i class="fas fa-leaf"></i> MongoDB</span>
+              <span class="skill-badge"><i class="fas fa-fire"></i> Firebase</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <i class="fas fa-plug"></i>
+              </div>
+              <h3 class="skill-card-title">API & Performance Testing</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fas fa-network-wired"></i> Postman</span>
+              <span class="skill-badge"><i class="fas fa-gauge-high"></i> JMeter</span>
+              <span class="skill-badge"><i class="fas fa-exchange-alt"></i> REST API Validation</span>
+              <span class="skill-badge"><i class="fas fa-file-code"></i> JSON / Payload Schema</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <i class="fas fa-infinity"></i>
+              </div>
+              <h3 class="skill-card-title">CI/CD & DevOps Tools</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fab fa-github-action"></i> GitHub Actions</span>
+              <span class="skill-badge"><i class="fab fa-jenkins"></i> Jenkins</span>
+              <span class="skill-badge"><i class="fab fa-git-alt"></i> Git</span>
+              <span class="skill-badge"><i class="fas fa-tasks"></i> JIRA</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 5 -->
+          <div class="skill-card" style="grid-column: 1 / -1;">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <i class="fas fa-vial"></i>
+              </div>
+              <h3 class="skill-card-title">Core QA Methodologies</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"><i class="fas fa-desktop"></i> Manual Testing</span>
+              <span class="skill-badge"><i class="fas fa-robot"></i> Automation Testing</span>
+              <span class="skill-badge"><i class="fas fa-desktop"></i> Web UI Automation</span>
+              <span class="skill-badge"><i class="fas fa-check-double"></i> Functional Testing</span>
+              <span class="skill-badge"><i class="fas fa-rotate"></i> Regression Testing</span>
+              <span class="skill-badge"><i class="fas fa-wind"></i> Smoke Testing</span>
+              <span class="skill-badge"><i class="fas fa-globe"></i> Cross-Browser Testing</span>
+              <span class="skill-badge"><i class="fas fa-box-open"></i> Black-Box & Grey-Box Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. FEATURED QA AUTOMATION PROJECTS
+         ======================================================================= -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-briefcase"></i> Portfolio Showcase
+          </div>
+          <h2 class="section-title">Featured <span>QA Automation</span> Projects</h2>
+          <p class="section-subtitle">
+            Automated test suites built for high reliability, cross-browser compatibility, and seamless CI/CD integration.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="project-filters reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="playwright">Playwright (JS)</button>
+          <button class="filter-btn" data-filter="cicd">CI/CD & Pipelines</button>
+          <button class="filter-btn" data-filter="api">API & DB Validation</button>
+        </div>
+
+        <div class="projects-grid reveal-on-scroll delay-200">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="playwright cicd api">
+            <div>
+              <div class="project-badge-top">
+                <span class="project-category">Full-Stack E2E & API Suite</span>
+                <span class="pass-rate-badge"><i class="fas fa-check-circle"></i> 100% Passed</span>
+              </div>
+              <h3 class="project-title">Crime Report Management System (CRMS)</h3>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Playwright (JS)</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Maven</span>
+                <span class="tech-tag">GitHub Actions</span>
+              </div>
+              <ul class="project-achievements">
+                <li>Built end-to-end UI and API test automation scripts for critical modules including authentication, crime reporting, case management, and analytics dashboards.</li>
+                <li>Implemented Black-Box and Grey-Box testing strategies for complex workflow and backend database validations.</li>
+                <li>Integrated automated regression runs into CI pipelines triggered on every code build.</li>
+              </ul>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary view-code-btn" data-project="crms">
+                <i class="fas fa-code"></i> View POM Script
+              </button>
+              <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="playwright e-commerce">
+            <div>
+              <div class="project-badge-top">
+                <span class="project-category">E-Commerce QA Automation</span>
+                <span class="pass-rate-badge"><i class="fas fa-check-circle"></i> 100% Passed</span>
+              </div>
+              <h3 class="project-title">Art Finder - E-Commerce QA Automation Suite</h3>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Playwright (JS)</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">HTML/CSS</span>
+              </div>
+              <ul class="project-achievements">
+                <li>Designed automated end-to-end test scripts covering user registration, product search/filter, shopping cart operations, and checkout.</li>
+                <li>Created role-based validation suites covering Customer, Seller, and Admin workflows.</li>
+                <li>Elevated test coverage significantly while reducing release defect rates.</li>
+              </ul>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary view-code-btn" data-project="artfinder">
+                <i class="fas fa-code"></i> View Checkout Spec
+              </button>
+              <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="playwright cicd api">
+            <div>
+              <div class="project-badge-top">
+                <span class="project-category">Healthcare & RBAC Suite</span>
+                <span class="pass-rate-badge"><i class="fas fa-check-circle"></i> 100% Passed</span>
+              </div>
+              <h3 class="project-title">Medisys Pro - Medical Store Management Testing</h3>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Playwright (JS)</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">JSP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Jenkins</span>
+              </div>
+              <ul class="project-achievements">
+                <li>Automated core workflows including secure authentication, inventory updates, sales processing, and billing.</li>
+                <li>Automated role-based access control (RBAC) validations and financial report verification.</li>
+                <li>Configured CI/CD test execution pipelines via GitHub Actions/Jenkins to provide instant build feedback.</li>
+              </ul>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary view-code-btn" data-project="medisys">
+                <i class="fas fa-code"></i> View RBAC Test
+              </button>
+              <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="playwright crossbrowser">
+            <div>
+              <div class="project-badge-top">
+                <span class="project-category">Cross-Browser Breakpoint Suite</span>
+                <span class="pass-rate-badge"><i class="fas fa-check-circle"></i> 100% Passed</span>
+              </div>
+              <h3 class="project-title">Responsive College Website Validation</h3>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Playwright (JS)</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">HTML/CSS</span>
+              </div>
+              <ul class="project-achievements">
+                <li>Built automated responsive design test suites validating layout breakpoints and UI elements across devices.</li>
+                <li>Executed automated cross-browser smoke tests across Chromium, Firefox, and WebKit (Safari).</li>
+              </ul>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary view-code-btn" data-project="responsive">
+                <i class="fas fa-code"></i> View Viewport Spec
+              </button>
+              <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. WORK EXPERIENCE SECTION
+         ======================================================================= -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-history"></i> Career Path
+          </div>
+          <h2 class="section-title">Professional <span>Experience</span></h2>
+          <p class="section-subtitle">
+            Demonstrated background delivering high quality software through continuous test automation.
+          </p>
+        </div>
+
+        <div class="timeline reveal-on-scroll delay-200">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Freelance QA Automation Engineer</h3>
+                  <div class="exp-company">Independent Contracting | Web & Mobile QA</div>
+                </div>
+                <div class="exp-duration">
+                  <i class="far fa-calendar-alt"></i> May 2024 – Present | Pune, India
+                </div>
+              </div>
+
+              <ul class="exp-list">
+                <li>Engineered automated E2E web application suites using <strong>Playwright (JavaScript)</strong>, ensuring <span class="metric-highlight">100% UI workflow consistency</span>.</li>
+                <li>Designed functional, smoke, and regression test suites, expanding test coverage and <span class="metric-highlight">reducing release defects by 30%</span>.</li>
+                <li>Integrated test suites into CI/CD workflows (<strong>GitHub Actions & Jenkins</strong>) for automated continuous testing on pull requests.</li>
+                <li>Created, tracked, and closed defect reports using <strong>JIRA</strong> while collaborating closely with developers in Agile sprints.</li>
+                <li>Optimized automation scripts and reusable Page Object Models (POM), <span class="metric-highlight">boosting test execution efficiency by 35%</span>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. EDUCATION & CERTIFICATIONS (CATEGORIZED DOMAINS)
+         ======================================================================= -->
+    <section class="edu-cert-section" id="education">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-graduation-cap"></i> Qualifications & Credentials
+          </div>
+          <h2 class="section-title">Education & <span>Professional Credentials</span></h2>
+          <p class="section-subtitle">
+            Academic degrees and industry certifications across Software Testing, Cloud & AI, Cybersecurity, Data Analytics, and Project Management.
+          </p>
+        </div>
+
+        <!-- Academic Background Grid -->
+        <div style="margin-bottom: 3.5rem;" class="reveal-on-scroll">
+          <h3 class="sub-section-title"><i class="fas fa-user-graduate"></i> Academic Degrees</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem;">
+            <div class="edu-card">
+              <h4 class="edu-degree">Master of Computer Applications (MCA)</h4>
+              <div class="edu-institution">D. Y. Patil Institute of MCA and Management</div>
+              <div class="edu-meta">
+                <span><i class="far fa-calendar-alt"></i> 2022 – 2024</span>
+                <span class="cgpa-badge">CGPA: 8.19 / 10.0</span>
+              </div>
+            </div>
+
+            <div class="edu-card">
+              <h4 class="edu-degree">Bachelor of Computer Applications (BCA)</h4>
+              <div class="edu-institution">Pacific University</div>
+              <div class="edu-meta">
+                <span><i class="far fa-calendar-alt"></i> 2018 – 2021</span>
+                <span class="cgpa-badge">CGPA: 7.78 / 10.0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categorized Certifications Section -->
+        <div id="credentials" class="reveal-on-scroll delay-200">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.75rem;">
+            <h3 class="sub-section-title" style="margin-bottom: 0;"><i class="fas fa-certificate"></i> Certifications & Credentials</h3>
+            
+            <a href="https://drive.google.com/drive/folders/1gFT4EyofVWNbGAGS5bW0dRbqdvH2ogSq?usp=sharing" target="_blank" rel="noopener" class="btn btn-primary" id="viewDriveCertificatesBtn" style="gap: 0.6rem;">
+              <i class="fab fa-google-drive"></i> View Verified Certificates (Google Drive) <i class="fas fa-arrow-up-right-from-square" style="font-size: 0.8rem;"></i>
+            </a>
+          </div>
+          
+          <div class="cert-category-grid">
+            
+            <!-- Category 1: Software Development, Testing & Automation -->
+            <div class="cert-category-card">
+              <div class="cert-cat-header">
+                <div class="cert-cat-icon"><i class="fas fa-vial"></i></div>
+                <div>
+                  <h4 class="cert-cat-title">Software Development, Testing & Automation</h4>
+                  <span class="cert-cat-count">5 Certifications</span>
+                </div>
+              </div>
+              <div class="cert-list">
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google IT Automation with Python Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • Oct 2024</div>
+                  <div class="cert-item-desc">6-course curriculum specializing in Python scripting, Git/GitHub, and system administration.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Selenium Basics</div>
+                  <div class="cert-item-issuer"><i class="fas fa-award"></i> Great Learning Academy • Apr 2024</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">JavaScript Essentials 2</div>
+                  <div class="cert-item-issuer"><i class="fas fa-network-wired"></i> Cisco Networking Academy & OpenEDG • May 2025</div>
+                  <div class="cert-item-desc">Advanced OOP, asynchronous programming, prototypes, and inheritance.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Python Essentials 1 & 2</div>
+                  <div class="cert-item-issuer"><i class="fab fa-python"></i> Cisco Networking Academy & OpenEDG • Apr 2024</div>
+                  <div class="cert-item-desc">Foundational syntax, multi-module packaging, OOP, and debugging.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">TruBot Designer (Gold Category - 90%)</div>
+                  <div class="cert-item-issuer"><i class="fas fa-robot"></i> NASSCOM & FutureSkills Prime • Jan 2023</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 2: Cloud Computing, AI & Emerging Technologies -->
+            <div class="cert-category-card">
+              <div class="cert-cat-header">
+                <div class="cert-cat-icon"><i class="fas fa-brain"></i></div>
+                <div>
+                  <h4 class="cert-cat-title">Cloud Computing, AI & Emerging Technologies</h4>
+                  <span class="cert-cat-count">4 Certifications</span>
+                </div>
+              </div>
+              <div class="cert-list">
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Agentic AI Certified Foundations Associate</div>
+                  <div class="cert-item-issuer"><i class="fas fa-cloud"></i> Oracle University • Jul 2026</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google AI Essentials</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • May 2024</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Exam MS-900: Microsoft 365 Fundamentals</div>
+                  <div class="cert-item-issuer"><i class="fab fa-microsoft"></i> Ernst & Young (EY) • May 2026</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">AWS Technical Essentials</div>
+                  <div class="cert-item-issuer"><i class="fab fa-aws"></i> The DataTech Labs • Dec 2022</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 3: Cybersecurity, Networking & Systems -->
+            <div class="cert-category-card">
+              <div class="cert-cat-header">
+                <div class="cert-cat-icon"><i class="fas fa-shield-halved"></i></div>
+                <div>
+                  <h4 class="cert-cat-title">Cybersecurity, Networking & Systems</h4>
+                  <span class="cert-cat-count">4 Certifications</span>
+                </div>
+              </div>
+              <div class="cert-list">
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google Cybersecurity Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • May 2024</div>
+                  <div class="cert-item-desc">8-course track covering Python, Linux, SQL, SIEM tools, and Intrusion Detection Systems.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Ethical Hacker</div>
+                  <div class="cert-item-issuer"><i class="fas fa-user-secret"></i> Cisco Networking Academy • Aug 2025</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google IT Support Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • Sep 2023</div>
+                  <div class="cert-item-desc">Networking, operating systems, system administration, and security.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">CCNA 200-301 Network Fundamentals</div>
+                  <div class="cert-item-issuer"><i class="fas fa-network-wired"></i> Simplilearn SkillUP • Apr 2025</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 4: Data Analytics & Business Intelligence -->
+            <div class="cert-category-card">
+              <div class="cert-cat-header">
+                <div class="cert-cat-icon"><i class="fas fa-chart-pie"></i></div>
+                <div>
+                  <h4 class="cert-cat-title">Data Analytics & Business Intelligence</h4>
+                  <span class="cert-cat-count">5 Certifications</span>
+                </div>
+              </div>
+              <div class="cert-list">
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google Data Analytics Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • Nov 2024</div>
+                  <div class="cert-item-desc">8-course program covering SQL, Spreadsheets, Tableau, and R programming.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Data Analytics Job Simulation</div>
+                  <div class="cert-item-issuer"><i class="fas fa-building"></i> Deloitte (via Forage) • Oct 2025</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Data Analytics Essentials</div>
+                  <div class="cert-item-issuer"><i class="fas fa-database"></i> Cisco Networking Academy • Jun 2023</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google Analytics Certification & GA4 Specializations</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Google • Apr 2025 (ID: 140518750)</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Master Business Analysis to become a Business Analyst</div>
+                  <div class="cert-item-issuer"><i class="fas fa-chart-line"></i> Udemy • Mar 2026</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 5: Agile, Project Management & Professional Development -->
+            <div class="cert-category-card" style="grid-column: 1 / -1;">
+              <div class="cert-cat-header">
+                <div class="cert-cat-icon"><i class="fas fa-tasks"></i></div>
+                <div>
+                  <h4 class="cert-cat-title">Agile, Project Management & Professional Development</h4>
+                  <span class="cert-cat-count">5 Certifications</span>
+                </div>
+              </div>
+              <div class="cert-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google Project Management Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • Aug 2024</div>
+                  <div class="cert-item-desc">Traditional and Agile project lifecycles, risk management, and execution.</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Scrum Foundation Professional Certification (SFPC)</div>
+                  <div class="cert-item-issuer"><i class="fas fa-certificate"></i> CertiProf • Jun 2024</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Agile Project Management</div>
+                  <div class="cert-item-issuer"><i class="fas fa-cube"></i> HP LIFE • Nov 2024</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">Google Digital Marketing & E-commerce Professional Certificate</div>
+                  <div class="cert-item-issuer"><i class="fab fa-google"></i> Coursera (Google) • Nov 2024</div>
+                </div>
+                <div class="cert-item-rich">
+                  <div class="cert-item-title">TCS iON Career Edge – Young Professional</div>
+                  <div class="cert-item-issuer"><i class="fas fa-user-tie"></i> TCS iON • May 2023</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         10. CONTACT SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </div>
+          <h2 class="section-title">Let's Connect & <span>Collaborate</span></h2>
+          <p class="section-subtitle">
+            Interested in building high-quality, defect-free automated software? Send a message or reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid reveal-on-scroll delay-200">
+          <!-- High-Contrast Contact Info Card -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Contact Information</h3>
+            <p class="contact-info-desc">
+              Currently open to QA Automation Engineer, Software Test Engineer, & SDET opportunities. Feel free to connect directly via Email, LinkedIn, GitHub, or LeetCode.
+            </p>
+
+            <div class="contact-method-item contact-item-email">
+              <div class="contact-icon-wrapper brand-email">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-item-text">
+                <div class="contact-method-label">Direct Email</div>
+                <a href="mailto:solankiravindra882@gmail.com" class="contact-method-value">solankiravindra882@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-method-item contact-item-location">
+              <div class="contact-icon-wrapper brand-location">
+                <i class="fas fa-location-dot"></i>
+              </div>
+              <div class="contact-item-text">
+                <div class="contact-method-label">Location</div>
+                <div class="contact-method-value">Pune, Maharashtra, India</div>
+              </div>
+            </div>
+
+            <div class="contact-method-item contact-item-linkedin">
+              <div class="contact-icon-wrapper brand-linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="contact-item-text">
+                <div class="contact-method-label">LinkedIn Profile</div>
+                <a href="https://www.linkedin.com/in/ravindra-suthar/" target="_blank" rel="noopener" class="contact-method-value">linkedin.com/in/ravindra-suthar</a>
+              </div>
+            </div>
+
+            <div class="contact-method-item contact-item-github">
+              <div class="contact-icon-wrapper brand-github">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-item-text">
+                <div class="contact-method-label">GitHub Repository</div>
+                <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="contact-method-value">github.com/Ravindra8829</a>
+              </div>
+            </div>
+
+            <div class="contact-method-item contact-item-leetcode">
+              <div class="contact-icon-wrapper brand-leetcode">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="contact-item-text">
+                <div class="contact-method-label">LeetCode Profile</div>
+                <a href="https://leetcode.com/u/Ravindra882/" target="_blank" rel="noopener" class="contact-method-value">leetcode.com/u/Ravindra882</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <form id="contactForm" action="https://formsubmit.co/solankiravindra882@gmail.com" method="POST">
+              <!-- FormSubmit Configuration Hidden Fields -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="🚀 New QA Portfolio Message for Ravindra!">
+              
+              <div class="form-group">
+                <label class="form-label" for="formName">Your Full Name</label>
+                <input type="text" id="formName" name="Name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="formEmail">Your Email Address</label>
+                <input type="email" id="formEmail" name="Email" class="form-input" placeholder="e.g. sarah@company.com" autocomplete="email" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="formSubject">Subject</label>
+                <input type="text" id="formSubject" name="Subject" class="form-input" placeholder="QA Automation Role Inquiry / Project" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="formMessage">Message</label>
+                <textarea id="formMessage" name="Message" class="form-textarea" placeholder="Hello Ravindra, we would like to discuss an SDET opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       11. CODE PREVIEW MODAL & SUCCESS TOAST POPUP
+       ========================================================================= -->
+  <div class="modal-overlay" id="codeModalOverlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Automation Code Preview</h3>
+        <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <pre class="modal-code-block"><code id="modalCode"></code></pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUCCESS POPUP NOTIFICATION MODAL -->
+  <div class="toast-popup-overlay" id="successToastModal">
+    <div class="toast-popup-card">
+      <div class="toast-icon-wrapper">
+        <i class="fas fa-paper-plane"></i>
+      </div>
+      <h3 class="toast-title">Message Sent Successfully!</h3>
+      <p class="toast-desc" id="toastMessageText">
+        Thank you! Your message has been sent directly to <strong>solankiravindra882@gmail.com</strong>. I will get back to you promptly.
+      </p>
+      <button class="btn btn-primary toast-close-btn" id="toastCloseBtn">
+        <i class="fas fa-check"></i> Great, Thanks!
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       12. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/Ravindra8829" target="_blank" rel="noopener" class="footer-icon-btn" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ravindra-suthar/" target="_blank" rel="noopener" class="footer-icon-btn" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://leetcode.com/u/Ravindra882/" target="_blank" rel="noopener" class="footer-icon-btn" aria-label="LeetCode">
+          <i class="fas fa-code"></i>
+        </a>
+        <a href="mailto:solankiravindra882@gmail.com" class="footer-icon-btn" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <p>© 2026 Ravindra Kumar Suthar. Built for High-Converting QA Automation & SDET Excellence.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
